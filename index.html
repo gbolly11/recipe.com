@@ -18,7 +18,43 @@
 </head>
 <body>
     <!-- header -->
-    <header></header>
+    <header>
+        <!-- nav -->
+        <nav class="white">
+            <div class="container">
+                <a class="brand-logo" href="">
+                    <img width="15%" src="img/logo.png" alt="">
+                </a>
+                <ul class="right">
+                    <li>
+                        <a class="orange-text text-darken-4" href="">Home</a>
+                    </li>
+                    <li>
+                        <a class="orange-text text-darken-4" href="">Cakes</a>
+                    </li>
+                    <li>
+                        <a class="orange-text text-darken-4" href="">Soups</a>
+                    </li>
+                    <li>
+                        <a class="orange-text text-darken-4" href="">Chicken</a>
+                    </li>
+                    <li>
+                        <a class="orange-text text-darken-4" href="">Customers</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- header-slider -->
+        <div class="slider">
+            <ul class="slides">
+                <li class="responsive-img"><img src="img/cake_fruit.jpg" alt=""></li>
+                <li class="responsive-img"><img src="img/shrimp_soup.jpg" alt=""></li>
+                <li class="responsive-img"><img src="img/chicken_3.jpg" alt=""></li>
+                <li class="responsive-img"><img src="img/dessert_chocolate.jpg" alt=""></li>
+                <li class="responsive-img"><img src="img/ginger_cake.webp" alt=""></li>
+            </ul>
+        </div>
+    </header>
     <main>
         <!-- home -->
         <section></section>
@@ -44,6 +80,7 @@
     <script src="js/materialize.js"></script>
     <script>
         $(document).ready(function(){});
+        $('.slider').slider({});
     </script>
 </body>
 </html>
