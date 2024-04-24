@@ -36,7 +36,7 @@
                 </a>
                 <ul class="right hide-on-med-and-down">
                     <li>
-                        <a class="orange-text text-darken-4" href="">Home</a>
+                        <a class="orange-text text-darken-4" href="#menu">Home</a>
                     </li>
                     <li>
                         <a class="orange-text text-darken-4" href="#cakes">Cakes</a>
@@ -56,24 +56,24 @@
       </div>
         <ul class="sidenav" id="mobile">
             <li>
-                <a class="orange-text text-darken-4" href="">Home</a>
+                <a class="orange-text text-darken-4" href="#home">Home</a>
             </li>
             <li>
-                <a class="orange-text text-darken-4" href="#cakes">Cakes</a>
+                <a class="orange-text text-darken-4" href="#cakes-side">Cakes</a>
             </li>
             <li>
-                <a class="orange-text text-darken-4" href="#soups">Soups</a>
+                <a class="orange-text text-darken-4" href="#soups-side">Soups</a>
             </li>
             <li>
-                <a class="orange-text text-darken-4" href="#chicken">Chicken</a>
+                <a class="orange-text text-darken-4" href="#chicken-side">Chicken</a>
             </li>
             <li>
-                <a class="orange-text text-darken-4" href="#customers">Customers</a>
+                <a class="orange-text text-darken-4" href="#customers-side">Customers</a>
             </li>
         </ul>
         <!-- header-slider -->
-        <div class="slider">
-            <ul class="slides">
+        <div class="slider" id="home">
+            <ul class="slides" id="menu">
                 <li class="responsive-img"><img src="img/cake_fruit.jpg" alt=""></li>
                 <li class="responsive-img"><img src="img/shrimp_soup.jpg" alt=""></li>
                 <li class="responsive-img"><img src="img/chicken_3.jpg" alt=""></li>
@@ -147,7 +147,7 @@
         <!-- Customer's comment -->
         <section>
             <div class="container" id="customers">
-                <h3 class="orange-text text-darken-4 center-align">What Our Customers Say...</h3><br>
+                <h3 class="orange-text text-darken-4 center-align" id="customers-side">What Our Customers Say...</h3><br>
                 <ul class="collection">
                     <li class="collection-item avatar">
                         <i class="material-icons circle orange darken-4">person</i>
@@ -178,7 +178,7 @@
             </div>
 
             <!-- corresponding image on small screens -->
-            <div class="container show-on-medium-and-down">
+            <div class="container hide-on-large-only" id="cakes-side">
                     <img class="responsive-img" src="img/cake.jpg" alt="">
             </div>
 
@@ -343,7 +343,7 @@
             </div> 
             
             <!-- corresponding image on small screens -->
-            <div class="container show-on-medium-and-down">
+            <div class="container hide-on-large-only" id="soups-side">
                     <img class="responsive-img" src="img/soup.jpg" alt="">
             </div>
 
@@ -502,7 +502,7 @@
             </div>
 
             <!-- corresponding image on small screens -->
-            <div class="container show-on-medium-and-down">
+            <div class="container hide-on-large-only" id="chicken-side">
                     <img class="responsive-img" src="img/chicken.jpg" alt="">
             </div>
 
@@ -673,7 +673,7 @@
                 <div class="col s12 l4 push-l4">
                     <h5 class="orange-text text-darken-4">Quick Links</h5>
                     <ul>
-                        <li><a class="white-text" href="">Back to top</a></li>
+                        <li><a class="white-text" href="#menu">Back to top</a></li>
                         <li><a class="white-text" href="#cakes">Cakes</a></li>
                         <li><a class="white-text" href="#soups">Soups</a></li>
                         <li><a class="white-text" href="#chicken">Chicken</a></li>
